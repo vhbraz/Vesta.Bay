@@ -1057,14 +1057,6 @@
 /obj/effect/wallframe_spawn/reinforced/hull,
 /turf/simulated/floor/plating,
 /area/map_template/crashed_pod)
-"td" = (
-/obj/machinery/atmospherics/pipe/simple/visible/blue{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/red,
-/obj/machinery/recharge_station,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/map_template/crashed_pod)
 "vG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/floor_decal/industrial/outline/blue,
@@ -1199,7 +1191,7 @@ ab
 bH
 eq
 eq
-td
+eG
 fk
 fi
 fz
