@@ -3163,15 +3163,6 @@
 /obj/random/snack,
 /turf/simulated/floor/tiled/techmaint/vox,
 /area/voxship/shuttle)
-"kV" = (
-/obj/structure/ore_box,
-/turf/simulated/floor/tiled/techmaint/vox,
-/area/voxship/scavship)
-"pU" = (
-/obj/effect/decal/cleanable/filth,
-/obj/structure/ore_box,
-/turf/simulated/floor/tiled/techmaint/vox,
-/area/voxship/scavship)
 "Dc" = (
 /obj/machinery/telecomms/broadcaster/map_preset/voxship,
 /turf/simulated/floor/plating/vox,
@@ -8637,7 +8628,7 @@ as
 dC
 ec
 ey
-pU
+aM
 aa
 aa
 gp
@@ -8739,7 +8730,7 @@ as
 dD
 ed
 ez
-kV
+aN
 aa
 aa
 dV

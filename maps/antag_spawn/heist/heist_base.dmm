@@ -9,14 +9,16 @@
 /turf/unsimulated/mineral,
 /area/space)
 "ad" = (
-/turf/simulated/wall/r_wall,
+/turf/unsimulated/wall,
 /area/space)
 "ae" = (
-/turf/simulated/wall/r_wall,
+/turf/unsimulated/wall,
 /area/map_template/syndicate_mothership/raider_base)
 "af" = (
 /obj/random/junk,
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "dark"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "ag" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
@@ -40,7 +42,10 @@
 	},
 /area/map_template/syndicate_mothership/raider_base)
 "aj" = (
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "ak" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
@@ -90,14 +95,18 @@
 /obj/machinery/door/airlock/hatch{
 	name = "\improper NO DUST BREATHER ALLOWED"
 	},
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "dark"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "as" = (
 /obj/machinery/vending/snack{
 	name = "Getmore Chocolate Corp";
 	prices = list()
 	},
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "dark"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "at" = (
 /obj/structure/kitchenspike,
@@ -108,15 +117,24 @@
 "au" = (
 /obj/vehicle/bike/thermal,
 /obj/random/trash,
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "av" = (
 /obj/vehicle/bike/thermal,
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "aw" = (
 /obj/random/trash,
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "ax" = (
 /obj/item/device/radio/intercom/raider{
@@ -136,7 +154,10 @@
 "az" = (
 /obj/random/trash,
 /obj/item/weapon/reagent_containers/glass/bucket,
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "aA" = (
 /obj/structure/aliumizer,
@@ -173,27 +194,39 @@
 /area/map_template/syndicate_mothership/raider_base)
 "aG" = (
 /obj/structure/reagent_dispensers/fueltank,
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "aH" = (
 /obj/structure/hygiene/urinal{
 	pixel_y = 32
 	},
 /obj/item/weapon/soap,
-/turf/simulated/floor/tiled/white,
+/turf/unsimulated/floor{
+	dir = 2;
+	icon_state = "freezerfloor"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "aI" = (
 /obj/structure/hygiene/urinal{
 	pixel_y = 32
 	},
-/turf/simulated/floor/tiled/white,
+/turf/unsimulated/floor{
+	dir = 2;
+	icon_state = "freezerfloor"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "aJ" = (
 /obj/structure/hygiene/urinal{
 	pixel_y = 32
 	},
 /obj/random/trash,
-/turf/simulated/floor/tiled/white,
+/turf/unsimulated/floor{
+	dir = 2;
+	icon_state = "freezerfloor"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "aK" = (
 /obj/structure/bed,
@@ -269,7 +302,10 @@
 /area/map_template/syndicate_mothership/raider_base)
 "aP" = (
 /obj/machinery/door/airlock/hatch,
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "aQ" = (
 /obj/random/junk,
@@ -284,24 +320,34 @@
 	},
 /area/map_template/syndicate_mothership/raider_base)
 "aS" = (
-/turf/simulated/floor/tiled/white,
+/turf/unsimulated/floor{
+	dir = 2;
+	icon_state = "freezerfloor"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "aT" = (
 /obj/effect/decal/cleanable/blood,
-/turf/simulated/floor/tiled/white,
+/turf/unsimulated/floor{
+	dir = 2;
+	icon_state = "freezerfloor"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "aU" = (
 /obj/machinery/door/airlock/hatch{
 	name = "\improper LITTLE VOX ROOM"
 	},
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "dark"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "aV" = (
 /obj/item/device/radio/intercom/raider{
 	dir = 8;
 	pixel_x = 22
 	},
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "dark"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "aW" = (
 /obj/structure/bed,
@@ -353,7 +399,10 @@
 	pixel_x = -28;
 	pixel_y = 0
 	},
-/turf/simulated/floor/tiled/white,
+/turf/unsimulated/floor{
+	dir = 2;
+	icon_state = "freezerfloor"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "bb" = (
 /obj/structure/bed,
@@ -381,17 +430,26 @@
 /area/map_template/syndicate_mothership/raider_base)
 "bd" = (
 /obj/effect/decal/cleanable/cobweb,
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "be" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "bf" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "bg" = (
 /obj/structure/sign/warning/nosmoking_1{
@@ -399,18 +457,27 @@
 	pixel_y = 32
 	},
 /obj/item/weapon/storage/fancy/cigarettes/dromedaryco,
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "bh" = (
 /obj/effect/decal/cleanable/blood/oil,
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "bi" = (
 /obj/effect/decal/cleanable/cobweb2{
 	icon_state = "spiderling";
 	name = "dead spider"
 	},
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "bj" = (
 /obj/item/clothing/head/xenos,
@@ -436,13 +503,28 @@
 	pixel_x = -28;
 	pixel_y = 0
 	},
-/turf/simulated/floor/tiled/white,
+/turf/unsimulated/floor{
+	dir = 2;
+	icon_state = "freezerfloor"
+	},
+/area/map_template/syndicate_mothership/raider_base)
+"bm" = (
+/obj/structure/hygiene/shower{
+	dir = 1
+	},
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "bn" = (
 /obj/structure/hygiene/shower{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white,
+/turf/unsimulated/floor{
+	dir = 2;
+	icon_state = "freezerfloor"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "bo" = (
 /obj/structure/table/woodentable,
@@ -481,18 +563,26 @@
 	dir = 4;
 	pixel_x = -22
 	},
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "dark"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "bs" = (
 /obj/effect/decal/cleanable/spiderling_remains,
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "bt" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 6;
 	icon_state = "intact"
 	},
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "bu" = (
 /obj/structure/window/reinforced{
@@ -502,7 +592,10 @@
 	dir = 8
 	},
 /obj/random/toolbox,
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "bv" = (
 /obj/effect/decal/cleanable/dirt,
@@ -511,18 +604,27 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "bw" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "bx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/portable_atmospherics/canister/nitrogen,
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "by" = (
 /obj/item/clothing/mask/gas/swat{
@@ -568,7 +670,9 @@
 	icon_state = "spiderling";
 	name = "dead spider"
 	},
-/turf/simulated/wall/r_wall,
+/turf/unsimulated/floor{
+	icon_state = "dark"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "bD" = (
 /obj/item/device/radio/intercom/raider{
@@ -677,14 +781,20 @@
 "bO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/washing_machine,
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "bP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "bQ" = (
 /obj/machinery/atmospherics/omni/mixer{
@@ -698,7 +808,10 @@
 	tag_west_con = 0.5;
 	use_power = 0
 	},
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "bR" = (
 /obj/structure/window/reinforced{
@@ -708,13 +821,19 @@
 /obj/machinery/atmospherics/portables_connector{
 	dir = 8
 	},
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "bS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "bT" = (
 /obj/item/pizzabox/meat,
@@ -774,7 +893,9 @@
 /area/map_template/syndicate_mothership/raider_base)
 "bZ" = (
 /obj/machinery/acting/changer,
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "dark"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "ca" = (
 /obj/structure/table/woodentable,
@@ -805,7 +926,9 @@
 	prices = list();
 	products = list(/obj/item/weapon/storage/fancy/cigarettes = 10, /obj/item/weapon/storage/box/matches = 10, /obj/item/weapon/flame/lighter/zippo/random = 4, /obj/item/clothing/mask/smokable/cigarette/cigar/havana = 2)
 	},
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "dark"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "ce" = (
 /obj/item/weapon/tank/nitrogen,
@@ -823,7 +946,9 @@
 /obj/structure/sign/poster{
 	pixel_y = -32
 	},
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "dark"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "ch" = (
 /turf/unsimulated/floor{
@@ -860,7 +985,9 @@
 	dir = 4;
 	pixel_x = -22
 	},
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "dark"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "cm" = (
 /obj/item/device/radio/intercom/raider{
@@ -885,13 +1012,14 @@
 /area/map_template/syndicate_mothership/raider_base)
 "co" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
-	dir = 4;
 	frequency = 1380;
 	id_tag = "skipjack_base";
 	pixel_x = -25;
 	pixel_y = -5
 	},
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "dark"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "cp" = (
 /obj/structure/closet/crate,
@@ -929,14 +1057,18 @@
 /area/space)
 "ct" = (
 /obj/machinery/door/airlock/external,
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "dark"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "cu" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
 	id_tag = "skipjack_base_hatch"
 	},
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "dark"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "cv" = (
 /obj/item/trash/cheesie,
@@ -1006,16 +1138,16 @@
 /area/map_template/skipjack_station/start)
 "cD" = (
 /obj/machinery/constructable_frame/computerframe,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "cE" = (
 /obj/machinery/computer/shuttle_control/multi/vox,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "cF" = (
 /obj/structure/table/steel,
 /obj/random/plushie,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "cG" = (
 /obj/random/trash,
@@ -1070,14 +1202,14 @@
 	dir = 4;
 	icon_state = "computer"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "cL" = (
 /obj/structure/bed/chair/shuttle{
 	dir = 8;
 	icon_state = "shuttle_chair_preview"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "cM" = (
 /obj/machinery/button/blast_door{
@@ -1097,13 +1229,13 @@
 	pixel_x = 5;
 	pixel_y = 31
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "cN" = (
 /obj/structure/bed/chair/office/light{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "cO" = (
 /obj/machinery/constructable_frame/computerframe,
@@ -1111,7 +1243,7 @@
 	dir = 4;
 	icon_state = "bulb1"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "cP" = (
 /obj/machinery/light/small,
@@ -1159,14 +1291,25 @@
 /obj/item/clothing/glasses/thermal/plain/monocle,
 /obj/item/device/suit_cooling_unit,
 /obj/item/device/suit_cooling_unit,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
+/area/map_template/skipjack_station/start)
+"cU" = (
+/turf/simulated/floor/shuttle/red,
+/area/map_template/skipjack_station/start)
+"cV" = (
+/obj/random/maintenance,
+/turf/simulated/floor/shuttle/red,
+/area/map_template/skipjack_station/start)
+"cW" = (
+/obj/random/junk,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "cX" = (
 /obj/structure/table/rack,
 /obj/random/raider/hardsuit,
 /obj/item/clothing/head/pirate,
 /obj/item/weapon/gun/launcher/money,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "cY" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
@@ -1233,7 +1376,7 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "df" = (
 /obj/structure/table/rack,
@@ -1249,7 +1392,7 @@
 	dir = 4;
 	icon_state = "bulb1"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "dg" = (
 /obj/structure/table/rack,
@@ -1323,7 +1466,7 @@
 "do" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/effect/paint/brown,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "dp" = (
 /obj/machinery/door/airlock/hatch,
@@ -1374,6 +1517,10 @@
 /obj/random/maintenance,
 /turf/simulated/floor/plating,
 /area/map_template/skipjack_station/start)
+"dw" = (
+/obj/random/trash,
+/turf/simulated/floor/shuttle/red,
+/area/map_template/skipjack_station/start)
 "dx" = (
 /obj/item/robot_parts/l_leg,
 /turf/simulated/floor/plating,
@@ -1415,7 +1562,7 @@
 /obj/item/weapon/beartrap,
 /obj/item/weapon/beartrap,
 /obj/item/weapon/beartrap,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "dC" = (
 /obj/structure/table/rack,
@@ -1423,13 +1570,13 @@
 /obj/item/weapon/grenade/flashbang,
 /obj/item/weapon/grenade/spawnergrenade/manhacks,
 /obj/random/raider/biggun,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "dD" = (
 /obj/machinery/suit_cycler/syndicate{
 	locked = 0
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "dE" = (
 /obj/structure/table/steel,
@@ -1437,7 +1584,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "dF" = (
 /obj/structure/reagent_dispensers/fueltank,
@@ -1491,12 +1638,12 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "dN" = (
 /obj/structure/table/steel,
 /obj/random/maintenance,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "dO" = (
 /obj/structure/bed/chair{
@@ -1505,7 +1652,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "dP" = (
 /obj/structure/hygiene/sink{
@@ -1552,11 +1699,14 @@
 /obj/machinery/recharge_station,
 /turf/simulated/floor/plating,
 /area/map_template/skipjack_station/start)
+"dU" = (
+/turf/simulated/floor/shuttle/black,
+/area/map_template/skipjack_station/start)
 "dV" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/black,
 /area/map_template/skipjack_station/start)
 "dW" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
@@ -1567,25 +1717,25 @@
 /obj/structure/bed/chair{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "dY" = (
 /obj/item/weapon/deck/cards,
 /obj/structure/table/steel,
 /obj/random/raider/lilgun,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "dZ" = (
 /obj/structure/bed/chair{
 	dir = 8
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "ea" = (
 /obj/machinery/bodyscanner{
 	dir = 8
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/white,
 /area/map_template/skipjack_station/start)
 "eb" = (
 /obj/machinery/light/small{
@@ -1594,10 +1744,10 @@
 /obj/machinery/body_scanconsole{
 	dir = 8
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/white,
 /area/map_template/skipjack_station/start)
 "ec" = (
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/white,
 /area/map_template/skipjack_station/start)
 "ed" = (
 /obj/structure/hygiene/toilet{
@@ -1628,10 +1778,27 @@
 /obj/effect/paint/black,
 /turf/simulated/wall/voxshuttle,
 /area/map_template/skipjack_station/start)
+"eh" = (
+/obj/random/trash,
+/turf/simulated/floor/shuttle/black,
+/area/map_template/skipjack_station/start)
 "ei" = (
 /obj/structure/table/steel,
 /obj/random/raider/lilgun,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
+/area/map_template/skipjack_station/start)
+"ej" = (
+/obj/random/junk,
+/turf/simulated/floor/shuttle/white,
+/area/map_template/skipjack_station/start)
+"ek" = (
+/obj/structure/hygiene/sink{
+	dir = 4;
+	icon_state = "sink";
+	pixel_x = 11;
+	pixel_y = 0
+	},
+/turf/simulated/floor/shuttle/white,
 /area/map_template/skipjack_station/start)
 "el" = (
 /obj/structure/shuttle/engine/propulsion,
@@ -1641,20 +1808,20 @@
 "em" = (
 /obj/structure/table/standard,
 /obj/random/maintenance,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/black,
 /area/map_template/skipjack_station/start)
 "en" = (
 /obj/structure/table/standard,
 /obj/item/weapon/deck/cards,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/black,
 /area/map_template/skipjack_station/start)
 "eo" = (
 /obj/machinery/light/small,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "ep" = (
 /obj/random/trash,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/white,
 /area/map_template/skipjack_station/start)
 "eq" = (
 /obj/structure/table/standard,
@@ -1664,16 +1831,16 @@
 /obj/item/weapon/hemostat,
 /obj/item/weapon/scalpel,
 /obj/item/stack/medical/advanced/bruise_pack,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/white,
 /area/map_template/skipjack_station/start)
 "er" = (
 /obj/random/junk,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/black,
 /area/map_template/skipjack_station/start)
 "es" = (
 /obj/machinery/optable,
 /obj/item/clothing/mask/gas,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/white,
 /area/map_template/skipjack_station/start)
 "et" = (
 /obj/structure/table/standard,
@@ -1685,7 +1852,7 @@
 /obj/item/weapon/gun/launcher/syringe/rapid,
 /obj/item/weapon/storage/box/syringegun,
 /obj/item/weapon/reagent_containers/glass/beaker/vial/random/toxin,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/white,
 /area/map_template/skipjack_station/start)
 "eu" = (
 /obj/structure/hygiene/sink{
@@ -1694,20 +1861,20 @@
 	pixel_x = 11;
 	pixel_y = 0
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/black,
 /area/map_template/skipjack_station/start)
 "ev" = (
 /obj/structure/bed,
 /obj/item/weapon/bedsheet/rainbow,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "ew" = (
 /obj/structure/bed,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "ex" = (
 /obj/random/maintenance,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/white,
 /area/map_template/skipjack_station/start)
 "ey" = (
 /obj/structure/table/standard,
@@ -1716,7 +1883,7 @@
 /obj/item/weapon/FixOVein,
 /obj/item/weapon/reagent_containers/syringe/antiviral,
 /obj/item/weapon/reagent_containers/syringe/antiviral,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/white,
 /area/map_template/skipjack_station/start)
 "ez" = (
 /obj/structure/hygiene/toilet{
@@ -1725,13 +1892,13 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/black,
 /area/map_template/skipjack_station/start)
 "eA" = (
 /obj/structure/closet/crate,
 /obj/item/clothing/suit/pirate,
 /obj/item/clothing/under/rank/medical/scrubs/black,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "eB" = (
 /obj/structure/bed,
@@ -1739,7 +1906,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "eC" = (
 /obj/structure/table/standard,
@@ -1750,7 +1917,7 @@
 	pixel_x = 3;
 	pixel_y = 3
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/white,
 /area/map_template/skipjack_station/start)
 "eD" = (
 /obj/structure/table/standard,
@@ -1765,26 +1932,29 @@
 	dir = 4
 	},
 /obj/item/weapon/melee/baton/cattleprod,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/white,
 /area/map_template/skipjack_station/start)
 "eF" = (
 /obj/structure/bed,
 /obj/item/weapon/bedsheet/rd,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "eG" = (
 /obj/item/pizzabox/meat,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "eH" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 "eI" = (
 /obj/machinery/telecomms/allinone{
 	intercept = 1
 	},
-/turf/simulated/floor,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
 /area/map_template/syndicate_mothership/raider_base)
 "ho" = (
 /obj/machinery/constructable_frame/computerframe,
@@ -1792,15 +1962,7 @@
 	dir = 4;
 	pixel_x = -24
 	},
-/turf/simulated/floor,
-/area/map_template/skipjack_station/start)
-"TN" = (
-/obj/effect/wingrille_spawn/reinforced/crescent,
-/turf/simulated/floor,
-/area/map_template/syndicate_mothership/raider_base)
-"VH" = (
-/obj/machinery/door/airlock/hatch,
-/turf/simulated/floor,
+/turf/simulated/floor/shuttle/red,
 /area/map_template/skipjack_station/start)
 
 (1,1,1) = {"
@@ -3195,7 +3357,7 @@ af
 aj
 ae
 ae
-ae
+aj
 ae
 ae
 ae
@@ -3263,8 +3425,8 @@ ab
 ab
 ab
 ad
-aj
-aj
+an
+an
 ae
 aH
 aS
@@ -3340,8 +3502,8 @@ ar
 ae
 aI
 aT
-aS
-bn
+aj
+bm
 ae
 ab
 aa
@@ -3408,7 +3570,7 @@ ab
 ab
 ad
 aj
-aj
+an
 ae
 aJ
 aS
@@ -3479,7 +3641,7 @@ ab
 ab
 ab
 ad
-aj
+an
 aj
 ae
 ae
@@ -3552,12 +3714,12 @@ ab
 ab
 ad
 af
-aj
-aj
-aj
-aj
-aj
-aj
+an
+an
+an
+an
+an
+an
 bC
 aC
 aC
@@ -3623,14 +3785,14 @@ ab
 ab
 ab
 ad
-aj
-aj
-aj
-aj
+an
+an
+an
+an
 aV
 af
+an
 aj
-ae
 aC
 aC
 aC
@@ -3695,14 +3857,14 @@ ab
 ab
 ab
 ad
-aj
-aj
+an
+an
 ae
 ae
 ae
 ae
 ae
-ae
+aD
 ae
 ae
 ae
@@ -3767,8 +3929,8 @@ ab
 ab
 ab
 ad
-aj
-aj
+an
+an
 ae
 aK
 aW
@@ -3780,8 +3942,8 @@ bZ
 aj
 cl
 ct
-aj
-aj
+an
+an
 ct
 cx
 cB
@@ -3839,22 +4001,22 @@ ab
 ab
 ab
 ad
-aj
-aj
+an
+an
 ae
 aL
 aX
 aX
 aY
 bE
-TN
-aj
+bq
+an
 aj
 aj
 ct
-aj
-aj
-TN
+an
+an
+bq
 cy
 cC
 cJ
@@ -3912,20 +4074,20 @@ ad
 ad
 ad
 aj
-aj
-aP
+an
+aD
 aM
 aY
 aY
 aY
 bF
-TN
-aj
+bq
+an
 cg
 ae
 ae
-TN
-TN
+bq
+bq
 ae
 cw
 cw
@@ -3982,18 +4144,18 @@ ab
 ab
 af
 aj
-aj
-aj
-aj
-aP
+an
+an
+an
+aD
 aN
 aY
 aY
 dr
 bG
-TN
+bq
 af
-aj
+an
 bq
 aa
 aa
@@ -4055,17 +4217,17 @@ ab
 ab
 ab
 aj
-aj
-aj
+an
+an
 ae
 aL
 aX
 aX
 aY
 bH
-TN
+bq
 aj
-aj
+an
 bq
 aa
 cv
@@ -4080,11 +4242,11 @@ dn
 dm
 dm
 dL
-ec
-ec
+dU
+dU
 em
-ec
-ep
+dU
+eh
 cR
 cR
 aa
@@ -4127,8 +4289,8 @@ ae
 ae
 ae
 ae
-aj
-aj
+an
+an
 ae
 aO
 aZ
@@ -4136,8 +4298,8 @@ bc
 bp
 bI
 ae
-aj
-aj
+an
+an
 bq
 aa
 aa
@@ -4153,10 +4315,10 @@ dp
 cR
 cR
 dV
-ep
+eh
 en
-ec
-ec
+dU
+dU
 ez
 cR
 cR
@@ -4200,7 +4362,7 @@ ab
 ab
 ae
 af
-aj
+an
 ae
 ae
 ae
@@ -4208,8 +4370,8 @@ ae
 ae
 aD
 ae
-aP
-aP
+aD
+aD
 ae
 ae
 aa
@@ -4221,15 +4383,15 @@ cw
 cT
 de
 do
-ec
+cU
 dB
 cR
-ec
-ec
-ec
+dU
+dU
+dU
 er
 eu
-ec
+dU
 cw
 cw
 cw
@@ -4271,12 +4433,12 @@ ab
 ab
 ab
 ae
-aj
-aj
-aj
-aj
-aj
-aj
+an
+an
+an
+an
+an
+an
 aD
 bJ
 bJ
@@ -4290,15 +4452,15 @@ aa
 cw
 ho
 cK
-ec
-ec
+cU
+cU
 do
-er
+cW
 dC
 cR
-do
-do
-do
+dW
+dW
+dW
 cR
 cR
 cR
@@ -4344,29 +4506,29 @@ ae
 ae
 ae
 as
-aj
-aj
-aj
-aj
-aj
+an
+an
+an
+an
+an
 ae
 bK
 bV
 ca
 bV
 bJ
-TN
+bq
 aa
 aa
 aa
 cz
 cE
 cL
-ec
-ec
+cU
+cU
 do
-ec
-ec
+cU
+cU
 dM
 dX
 dX
@@ -4419,33 +4581,33 @@ ae
 ae
 ae
 ae
-aj
-aj
+an
+an
 ae
 bL
 bW
 cb
 ci
 bJ
-TN
+bq
 aa
 aa
 aa
 cz
 cF
 cM
-ex
-ec
-VH
-ec
-ec
+cV
+cU
+dp
+cU
+cU
 dN
 dY
 ei
-ec
-VH
-ec
-ec
+cU
+dp
+cU
+cU
 eG
 eg
 el
@@ -4490,27 +4652,27 @@ ao
 ao
 ax
 aE
-aP
-aj
-aj
-TN
+aD
+an
+an
+bq
 bM
 bV
 cc
 bV
 bJ
-TN
+bq
 aa
 aa
 aa
 cz
 cD
 cN
-ec
-ec
+cU
+cU
 do
-ep
-ec
+dw
+cU
 dO
 dZ
 dZ
@@ -4562,10 +4724,10 @@ ap
 ao
 ay
 ao
-aP
+aD
 af
-aj
-TN
+an
+bq
 bN
 bJ
 bJ
@@ -4578,10 +4740,10 @@ aa
 cw
 cD
 cO
-er
-ec
+cW
+cU
 do
-ec
+cU
 dD
 cR
 dW
@@ -4635,11 +4797,11 @@ ao
 ao
 aF
 ae
-aj
-aj
+an
+an
 ae
-TN
-TN
+bq
+bq
 aD
 aD
 ae
@@ -4653,11 +4815,11 @@ cw
 cX
 df
 do
-ec
+cU
 dE
 cR
 ea
-er
+ej
 ec
 es
 ec
@@ -4707,14 +4869,14 @@ at
 at
 ae
 ae
-aj
+an
 aj
 br
-aj
-aj
-aj
-aj
-TN
+an
+an
+an
+an
+bq
 aa
 aa
 aa
@@ -4778,15 +4940,15 @@ ae
 ae
 ae
 ae
+an
+an
+an
 aj
 aj
 aj
-aj
-aj
-aj
-aj
+an
 af
-TN
+bq
 aa
 aa
 aa
@@ -4801,7 +4963,7 @@ dm
 dm
 dL
 ec
-eu
+ek
 eq
 et
 ey
@@ -4847,8 +5009,8 @@ ab
 ab
 ab
 ae
-aj
-aj
+ae
+ae
 ae
 aP
 ae
@@ -4856,9 +5018,9 @@ ae
 aP
 ae
 ae
-aj
-aj
-TN
+an
+an
+bq
 aa
 aa
 aa
@@ -4928,12 +5090,12 @@ bd
 aj
 bO
 ae
-aj
-aj
+an
+an
 ae
 ae
-TN
-TN
+bq
+bq
 ae
 cw
 cw
@@ -5000,13 +5162,13 @@ be
 bs
 bP
 ae
-aj
+an
 af
 co
 cu
-aj
-aj
-TN
+an
+an
+bq
 cw
 cG
 cP
@@ -5073,11 +5235,11 @@ bt
 bQ
 ae
 cd
-aj
-aj
+an
+an
 cu
-aj
-aj
+an
+an
 cu
 cA
 cH
